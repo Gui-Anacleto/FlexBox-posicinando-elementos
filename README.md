@@ -6,7 +6,7 @@ Curso do modulo-2 do bootcamp santander.
 
 Tornar um elemento flex-container, transformara seus filhos diretos em flex itens.
 
-**Flex-direction**
+## FLEX-DIRECTION
 
 É uma propriedade que estabelece um eixo principal do container, definindo assim a direção que os flex itens são colocados no flex container.
 
@@ -26,3 +26,14 @@ Tornar um elemento flex-container, transformara seus filhos diretos em flex iten
 3
 2
 1
+
+## FLEX-WRAP
+
+É a propriedade que define se os itens devem ou não quebrar a linha.
+Por padrçao eles não quebram linhas, isso faz com que os flex itens sejam compactados além do limite do conteúdo.
+
+**nowrap**: é o padão, não permite a quebra de linha
+
+**wrap**: permite a quebra de linha assim que um dos flex itens não puder mais ser compactado.
+
+**wrap-reverse**: permite a quebra de linha assim que um dos flex itens não puder mais ser compactado, porém na diração contrária, para linha a cima.

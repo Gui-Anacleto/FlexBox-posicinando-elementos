@@ -29,6 +29,28 @@
 
         .row-reverse li{
             background-color: red;
+            
+        }
+        .row-reverse{
+            flex-direction: row-reverse;
+        }
+         
+        .column li{
+            background-color: rgb(255, 230, 0);
+        }
+
+        .column{
+            float: left;
+            flex-direction: column;
+        }
+
+        .column-reverse li{
+            background-color: rgb(255, 0, 106);
+        }
+
+        .column-reverse{
+            float: right;
+            flex-direction: column-reverse;
         }
     </style>
 </head>
@@ -42,6 +64,22 @@
         
     </ul>
     <ul class="flex-container row-reverse">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+        
+    </ul>
+    <ul class="flex-container column">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+        
+    </ul>
+    <ul class="flex-container column-reverse">
         <li class="flex-item">1</li>
         <li class="flex-item">2</li>
         <li class="flex-item">3</li>
